@@ -1,0 +1,193 @@
+/* ============== ROOT =================*/
+:root{
+ 
+}
+
+/* <============= reset ===============> */
+*{
+  padding: 0;
+  margin: 0;
+}
+/* <============ NAVBAR =============>*/
+
+.joinbtn{
+  color: #FFFFFF;
+  background-color:#000000;
+  opacity: 0.5;
+  border-radius: 10px;
+  border: 2px solid #6E6E6E;
+  padding: 10px;
+  margin: 20px
+}
+.joinbtn:hover{
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+
+
+nav{
+  display: flex;
+  background-color: #060606;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+#navbar{
+  height: 10vh;
+  background-color: #000A74;
+  display: flex;
+}
+nav img{
+  height: 7vh;
+}
+/* content */
+
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li a{
+  padding: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* transition */
+.hover:hover{
+  content: "";
+  background-color: white;
+  height: 0.1rem;
+  color: black;
+  border-radius: 20px;
+}
+
+
+
+/* <============= HOME ==============>*/
+
+.bgimage{
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://telegra.ph/file/7d802b2e2c8e02ecc3d48.jpg");
+  min-height: 100%;
+  
+  z-index: -1;
+}
+.home{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hh3{
+   z-index: 1;
+   color: #F4F4F4;
+   font-size: 2rem;
+   padding-bottom: 1rem;
+   
+}
+/* <============ ABOUT ===============> */
+.textbold{
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+.about-box{
+  border: 2px solid white;
+  box-shadow: 0px 0px 10px #DDDDDD;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border-radius:30px;
+}
+.about-box img{
+  width: 40vw;
+  
+}
+#about-box{
+  width: 60vw;
+  align-items: center;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+.pricing{
+  display: flex;
+  align-items: center;
+  
+}
+.pricing h1{
+  
+  margin: auto;
+  border: 2px solid black ;
+  width: 110px;
+}
+
+
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.form input{
+  width: 60vw;
+  margin: 10px 0 10px 0;
+  height: 40px;
+  font-size: 1.2rem;
+  opacity: 1;
+  
+}
+.form button{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  font-size: 1.5rem;
+  color: white;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+.form button:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  
+}
+
+
+
+
+
+
+
+.contact{
+   background-position: center;
+   background-size: cover;
+   background-image: url("https://telegra.ph/file/d1f71a74237b58fc47b7e.jpg");
+   min-height: 100%;
+  opacity: 0.5;
+   z-index: -1;
+   
+}
+.contact form{
+  opacity: 1;
+}
